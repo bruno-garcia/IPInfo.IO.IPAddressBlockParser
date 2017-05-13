@@ -30,7 +30,7 @@ namespace IPInfo.IO.IPAddressBlockParser
         {
             using (var httpClient = new HttpClient())
             {
-                var response = httpClient.GetAsync($"https://ipinfo.io/{asn}").GetAwaiter().GetResult(); ;
+                var response = httpClient.GetAsync($"https://ipinfo.io/{asn}").GetAwaiter().GetResult();
                 var stream = response.Content.ReadAsStreamAsync().GetAwaiter().GetResult();
 
                 using (var reader = new StreamReader(stream))
