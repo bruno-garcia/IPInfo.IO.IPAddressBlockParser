@@ -1,0 +1,7 @@
+# Visual studio
+.vs/
+*.user
+bin/
+obj/
+# JetBrains Rider
+.idea
