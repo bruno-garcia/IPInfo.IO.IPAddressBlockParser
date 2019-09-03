@@ -27,7 +27,7 @@ Only returning IPv4 blocks.
 
 ## Dependencies
 
-Requires [.NET Core 1.1](https://www.microsoft.com/net/download/core)
+Requires [.NET Core 3.0](https://dot.net)
 
 ## License
 
